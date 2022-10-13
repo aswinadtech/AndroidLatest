@@ -1,0 +1,105 @@
+2022-10-10 10:56:35:303 [Appium] Welcome to Appium v1.22.0
+2022-10-10 10:56:35:304 [Appium] Non-default server args:
+2022-10-10 10:56:35:304 [Appium]   port: 4727
+2022-10-10 10:56:35:304 [Appium]   logFile: /Users/aswinikumar/adsqaandroidautomationmain/AppiumLog.txt
+2022-10-10 10:56:35:328 [Appium] Appium REST http interface listener started on 0.0.0.0:4727
+2022-10-10 10:56:35:749 [HTTP] --> GET /wd/hub/status
+2022-10-10 10:56:35:750 [HTTP] {}
+2022-10-10 10:56:35:751 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-10-10 10:56:35:752 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.0"}}
+2022-10-10 10:56:35:768 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2022-10-10 10:56:35:768 [HTTP] 
+2022-10-10 10:56:46:765 [HTTP] --> POST /wd/hub/session
+2022-10-10 10:56:46:766 [HTTP] {"desiredCapabilities":{"appPackage":"com.weather.Weather","appActivity":"com.weather.Weather.app.SplashScreenActivity","noReset":"true","newCommandTimeout":"100000.0","platformVersion":"10","automationName":"UiAutomator2","platformName":"Android","deviceName":"Samsung"}}
+2022-10-10 10:56:46:766 [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.weather.Weather","appActivity":"com.weather.Weather.app.SplashScreenActivity","noReset":"true","newCommandTimeout":"100000.0","platformVersion":"10","automationName":"UiAutomator2","platformName":"Android","deviceName":"Samsung"},null,null]
+2022-10-10 10:56:46:767 [BaseDriver] Event 'newSessionRequested' logged at 1665399406767 (16:26:46 GMT+0530 (India Standard Time))
+2022-10-10 10:56:46:989 [Appium] Appium v1.22.0 creating new AndroidUiautomator2Driver (v1.69.0) session
+2022-10-10 10:56:46:991 [BaseDriver] Creating session with MJSONWP desired capabilities: {
+2022-10-10 10:56:46:991 [BaseDriver]   "appPackage": "com.weather.Weather",
+2022-10-10 10:56:46:991 [BaseDriver]   "appActivity": "com.weather.Weather.app.SplashScreenActivity",
+2022-10-10 10:56:46:991 [BaseDriver]   "noReset": "true",
+2022-10-10 10:56:46:991 [BaseDriver]   "newCommandTimeout": "100000.0",
+2022-10-10 10:56:46:992 [BaseDriver]   "platformVersion": "10",
+2022-10-10 10:56:46:992 [BaseDriver]   "automationName": "UiAutomator2",
+2022-10-10 10:56:46:992 [BaseDriver]   "platformName": "Android",
+2022-10-10 10:56:46:992 [BaseDriver]   "deviceName": "Samsung"
+2022-10-10 10:56:46:992 [BaseDriver] }
+2022-10-10 10:56:46:993 [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2022-10-10 10:56:46:993 [BaseDriver] Capability 'newCommandTimeout' changed from string ('100000.0') to integer (100000). This may cause unexpected behavior
+2022-10-10 10:56:46:996 [BaseDriver] Session created with session id: 5b73e57b-7cb0-4fc0-b1ea-f4ffe73f8542
+2022-10-10 10:56:46:997 [UiAutomator2] Starting 'com.weather.Weather' directly on the device
+2022-10-10 10:56:47:035 [ADB] Found 2 'build-tools' folders under '/Users/aswinikumar/Library/Android/sdk/' (newest first):
+2022-10-10 10:56:47:035 [ADB]     /Users/aswinikumar/Library/Android/sdk/build-tools/30.0.2
+2022-10-10 10:56:47:035 [ADB]     /Users/aswinikumar/Library/Android/sdk/build-tools/29.0.2
+2022-10-10 10:56:47:036 [ADB] Using 'adb' from '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb'
+2022-10-10 10:56:47:037 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2022-10-10 10:56:47:919 [AndroidDriver] Retrieving device list
+2022-10-10 10:56:47:919 [ADB] Trying to find a connected android device
+2022-10-10 10:56:47:920 [ADB] Getting connected devices
+2022-10-10 10:56:47:936 [ADB] Connected devices: [{"udid":"277a9e7c891c7ece","state":"device"}]
+2022-10-10 10:56:47:937 [AndroidDriver] Looking for a device with Android '10.0.0'
+2022-10-10 10:56:47:937 [ADB] Setting device id to 277a9e7c891c7ece
+2022-10-10 10:56:47:937 [ADB] Getting device platform version
+2022-10-10 10:56:47:937 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell getprop ro.build.version.release'
+2022-10-10 10:56:47:997 [ADB] Current device property 'ro.build.version.release': 10
+2022-10-10 10:56:47:997 [AndroidDriver] Using device: 277a9e7c891c7ece
+2022-10-10 10:56:47:998 [ADB] Using 'adb' from '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb'
+2022-10-10 10:56:47:998 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2022-10-10 10:56:48:012 [ADB] Setting device id to 277a9e7c891c7ece
+2022-10-10 10:56:48:012 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell getprop ro.build.version.sdk'
+2022-10-10 10:56:48:062 [ADB] Current device property 'ro.build.version.sdk': 29
+2022-10-10 10:56:48:062 [ADB] Getting device platform version
+2022-10-10 10:56:48:062 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell getprop ro.build.version.release'
+2022-10-10 10:56:48:108 [ADB] Current device property 'ro.build.version.release': 10
+2022-10-10 10:56:48:108 [ADB] Device API level: 29
+2022-10-10 10:56:48:108 [UiAutomator2] Relaxing hidden api policy
+2022-10-10 10:56:48:109 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2022-10-10 10:56:48:255 [AndroidDriver] No app sent in, not parsing package/activity
+2022-10-10 10:56:48:255 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece wait-for-device'
+2022-10-10 10:56:48:268 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell echo ping'
+2022-10-10 10:56:48:328 [AndroidDriver] Pushing settings apk to device...
+2022-10-10 10:56:48:329 [ADB] Getting install status for io.appium.settings
+2022-10-10 10:56:48:329 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell dumpsys package io.appium.settings'
+2022-10-10 10:56:48:435 [ADB] 'io.appium.settings' is installed
+2022-10-10 10:56:48:435 [ADB] Getting package info for 'io.appium.settings'
+2022-10-10 10:56:48:435 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell dumpsys package io.appium.settings'
+2022-10-10 10:56:48:513 [ADB] The version code of the installed 'io.appium.settings' is greater than the application version code (31 > 30)
+2022-10-10 10:56:48:513 [ADB] There is no need to downgrade 'io.appium.settings'
+2022-10-10 10:56:48:513 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-10-10 10:56:48:513 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell 'pgrep --help; echo $?''
+2022-10-10 10:56:48:565 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-10-10 10:56:48:658 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2022-10-10 10:56:48:659 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell appops set io.appium.settings android:mock_location allow'
+2022-10-10 10:56:48:737 [Logcat] Starting logs capture with command: /Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece logcat -v threadtime
+2022-10-10 10:56:48:820 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8200
+2022-10-10 10:56:48:820 [ADB] Forwarding system: 8200 to device: 6790
+2022-10-10 10:56:48:820 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece forward tcp:8200 tcp:6790'
+2022-10-10 10:56:48:839 [ADB] Getting install status for io.appium.uiautomator2.server
+2022-10-10 10:56:48:839 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell dumpsys package io.appium.uiautomator2.server'
+2022-10-10 10:56:48:885 [ADB] 'io.appium.uiautomator2.server' is installed
+2022-10-10 10:56:48:886 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2022-10-10 10:56:48:886 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell dumpsys package io.appium.uiautomator2.server'
+2022-10-10 10:56:48:941 [ADB] The version code of the installed 'io.appium.uiautomator2.server' is greater than the application version code (95 > 92)
+2022-10-10 10:56:48:941 [UiAutomator2] io.appium.uiautomator2.server installation state: newerVersionInstalled
+2022-10-10 10:56:48:942 [ADB] Checking app cert for /Applications/AppiumServerGUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.24.0.apk
+2022-10-10 10:56:48:954 [ADB] Using 'apksigner.jar' from '/Users/aswinikumar/Library/Android/sdk/build-tools/30.0.2/lib/apksigner.jar'
+2022-10-10 10:56:48:956 [UiAutomator2] Deleting UiAutomator2 session
+2022-10-10 10:56:48:957 [UiAutomator2] Deleting UiAutomator2 server session
+2022-10-10 10:56:48:958 [WD Proxy] Matched '/' to command name 'deleteSession'
+2022-10-10 10:56:48:959 [UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+2022-10-10 10:56:48:959 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell am force-stop com.weather.Weather'
+2022-10-10 10:56:49:042 [Logcat] Stopping logcat capture
+2022-10-10 10:56:49:044 [ADB] Removing forwarded port socket connection: 8200 
+2022-10-10 10:56:49:044 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece forward --remove tcp:8200'
+2022-10-10 10:56:49:059 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2022-10-10 10:56:49:059 [ADB] Running '/Users/aswinikumar/Library/Android/sdk/platform-tools/adb -P 5037 -s 277a9e7c891c7ece shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2022-10-10 10:56:49:187 [BaseDriver] Event 'newSessionStarted' logged at 1665399409187 (16:26:49 GMT+0530 (India Standard Time))
+2022-10-10 10:56:49:235 [MJSONWP] Encountered internal error running command: Error: Cannot verify the signature of '/Applications/AppiumServerGUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.24.0.apk'. Original error: The JAVA_HOME environment variable must be set for Android Tools to work properly
+2022-10-10 10:56:49:235 [MJSONWP]     at ADB.checkApkCert (/Applications/AppiumServerGUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-adb/lib/tools/apk-signing.js:306:11)
+2022-10-10 10:56:49:235 [MJSONWP]     at UiAutomator2Server.installServerApk (/Applications/AppiumServerGUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/uiautomator2.js:117:13)
+2022-10-10 10:56:49:235 [MJSONWP]     at AndroidUiautomator2Driver.initUiAutomator2Server (/Applications/AppiumServerGUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:494:7)
+2022-10-10 10:56:49:235 [MJSONWP]     at AndroidUiautomator2Driver.startUiAutomator2Session (/Applications/AppiumServerGUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:390:5)
+2022-10-10 10:56:49:236 [MJSONWP]     at AndroidUiautomator2Driver.createSession (/Applications/AppiumServerGUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:229:7)
+2022-10-10 10:56:49:236 [MJSONWP]     at AppiumDriver.createSession (/Applications/AppiumServerGUI.app/Contents/Resources/app/node_modules/appium/lib/appium.js:387:35)
+2022-10-10 10:56:49:237 [HTTP] <-- POST /wd/hub/session 500 2471 ms - 429
+2022-10-10 10:56:49:237 [HTTP] 
